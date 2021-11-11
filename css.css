@@ -9,7 +9,7 @@ main {
 img {
     border: solid 1px red;
     opacity: 0; /*最初は非表示にしたいので０とする*/
-    transform: translateY(20px); /*下から表示するように20px下に配置する*/
+    transform: translateY(40px); /*下から表示するように20px下に配置する*/
     transition: opacity .3s, transform .3s; /*アニメーションさせる設定をする*/
 }
 
