@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    margin-bottom: 100rem;
+}
+
+main {
+    margin-bottom: 5rem;
+}
+
+img {
+    border: solid 1px red;
+    opacity: 0; /*最初は非表示にしたいので０とする*/
+    transform: translateY(20px); /*下から表示するように20px下に配置する*/
+    transition: opacity .3s, transform .3s; /*アニメーションさせる設定をする*/
+}
+
+img.appear { /*画像が表示された時.appearクラスが着くように指定*/
+    opacity: 1; /*画像が交差した時に表示するように１*/
+    transform: translateY(0);
+}
